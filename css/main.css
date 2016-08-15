@@ -66,12 +66,12 @@ body {
 	font-family: 'Open Sans',Helvetica,sans-serif;
 	font-weight: 900;
 	color: #333;
-	font-size: 48px;
+	font-size: 24px;
 	padding: 0 20px;
 }
 .modules h4 {
 	font-family: 'Open Sans',Helvetica,sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.2;
 	font-weight: 300;
 	background-color: #333;
@@ -82,11 +82,27 @@ body {
 	
 }
 
-@media screen and (min-width: 500px) {
+
+@media screen and (min-width: 550px) {
 	.header-wrapper {
 		padding: 20px;
 	}
 	.header-wrapper h1 {
+		font-size: 72px;
+	}
+	.modules h3 {
+		font-size: 32px;
+	}
+	.modules h4 {
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 740px) {
+	.header-wrapper h1 {
 		font-size: 100px;
 	}
+	.modules h3 {
+		font-size: 48px;
+	}
+	
 }
