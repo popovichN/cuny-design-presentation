@@ -1,0 +1,92 @@
+/*some css*/
+
+body {
+	background: linear-gradient(270deg, #2fe1b4, #e1ab2f, #e8a6ed);
+	background-size: 600% 600%;
+
+	-webkit-animation: background_animation 23s ease infinite;
+	-moz-animation: background_animation 23s ease infinite;
+	animation: background_animation 23s ease infinite;
+
+	@-webkit-keyframes background_animation {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@-moz-keyframes background_animation {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes background_animation { 
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+}
+/*thanks to https://www.gradient-animator.com/ */
+
+.page-wrapper {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.header-wrapper h1 {
+	font-family: 'Open Sans',Helvetica,sans-serif;
+	font-size: 36px;
+	line-height: 1;
+	font-weight: 800;
+	margin: 0 10px 20px;
+}
+.header-wrapper h2 {
+	font-family: 'Open Sans',Helvetica,sans-serif;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 300;
+	margin: 5px 15px 5px;
+}
+
+.header-wrapper {
+	width: 100%;
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.modules {
+	padding: 20px 0;
+
+}
+.module {
+	border-bottom: 2px solid #333;
+}
+.modules h3 {
+	font-family: 'Open Sans',Helvetica,sans-serif;
+	font-weight: 900;
+	color: #333;
+	font-size: 48px;
+	padding: 0 20px;
+}
+.modules h4 {
+	font-family: 'Open Sans',Helvetica,sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 300;
+	background-color: #333;
+	color: white;
+	max-width: 175px;
+	padding: 10px 0;
+	padding-left: 20px;
+	
+}
+
+@media screen and (min-width: 500px) {
+	.header-wrapper {
+		padding: 20px;
+	}
+	.header-wrapper h1 {
+		font-size: 100px;
+	}
+}
