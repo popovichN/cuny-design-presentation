@@ -14,8 +14,9 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
-
+  vertical-align: baseline; 
+  font-family: 'Open Sans', Arial, sans-serif;
+}
 .reveal article, .reveal aside, .reveal details, .reveal figcaption, .reveal figure, .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal section {
   display: block; }
 
@@ -1186,4 +1187,13 @@ section.left {
   margin: 20px 0;
   line-height: 1.3; 
   font-size: .825em;
+}
+.reveal small {
+  text-align: right;
+  width:100%;
+  font-size: 0.4em !important;
+  position:absolute;
+  right: 25px;
+  bottom:0;
+  color: #bdbdbd;
 }
