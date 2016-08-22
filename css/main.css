@@ -4,26 +4,26 @@ body {
 	background: linear-gradient(270deg, #2fe1b4, #e1ab2f, #e8a6ed);
 	background-size: 600% 600%;
 
-	-webkit-animation: background_animation 23s ease infinite;
-	-moz-animation: background_animation 23s ease infinite;
-	animation: background_animation 23s ease infinite;
-
-	@-webkit-keyframes background_animation {
-	    0%{background-position:0% 50%}
-	    50%{background-position:100% 50%}
-	    100%{background-position:0% 50%}
-	}
-	@-moz-keyframes background_animation {
-	    0%{background-position:0% 50%}
-	    50%{background-position:100% 50%}
-	    100%{background-position:0% 50%}
-	}
-	@keyframes background_animation { 
-	    0%{background-position:0% 50%}
-	    50%{background-position:100% 50%}
-	    100%{background-position:0% 50%}
-	}
+	/*-webkit-animation: mygradient 15s ease infinite;
+	-moz-animation: mygradient 15s ease infinite;
+	animation: mygradient 15s ease infinite;*/
+}/*
+@-webkit-keyframes mygradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
 }
+@-moz-keyframes mygradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@keyframes mygradient { 
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}*/
+
 /*thanks to https://www.gradient-animator.com/ */
 
 .page-wrapper {
@@ -31,19 +31,45 @@ body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
+.module-body {
+	margin-left: 65px;
+	height: auto;
+}
+.page-wrapper p,
+.page-wrapper li {
+	font-family: 'Open Sans',Helvetica,sans-serif;
+	font-size: 16px;
+	max-width: 620px;
+	font-weight: 200;
+	color: #333;
+}
+.page-wrapper p.large {
+	font-weight: 800;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.page-wrapper p.next {
+	margin-top: 0;
+}
+.page-wrapper a {
+	color: white;
+	font-weight: 800;
+	text-decoration: underline;
+}
 .header-wrapper h1 {
 	font-family: 'Open Sans',Helvetica,sans-serif;
 	font-size: 36px;
 	line-height: 1;
 	font-weight: 800;
-	margin: 0 10px 20px;
+	margin: 0 0 20px;
+	margin-left: -6px;
 }
 .header-wrapper h2 {
 	font-family: 'Open Sans',Helvetica,sans-serif;
 	font-size: 18px;
 	line-height: 1.2;
 	font-weight: 300;
-	margin: 5px 15px 5px;
+	margin: 5px 0;
 }
 
 .header-wrapper {
@@ -61,13 +87,20 @@ body {
 }
 .module {
 	border-bottom: 2px solid #333;
+	/*margin-bottom: 25px;*/
+	padding-bottom: 50px;
+}
+.module:last-of-type {
+	border-bottom: none;
 }
 .modules h3 {
 	font-family: 'Open Sans',Helvetica,sans-serif;
 	font-weight: 900;
 	color: #333;
 	font-size: 24px;
-	padding: 0 20px;
+	margin-bottom: 25px;
+	max-width: 780px;
+	/*padding: 0 20px;*/
 }
 .modules h4 {
 	font-family: 'Open Sans',Helvetica,sans-serif;
@@ -76,16 +109,17 @@ body {
 	font-weight: 300;
 	background-color: #333;
 	color: white;
-	max-width: 175px;
+	max-width: 155px;
 	padding: 10px 0;
-	padding-left: 20px;
-	
+	padding-left: 65px;
+
+	margin-top: 0;
 }
 
 
 @media screen and (min-width: 550px) {
 	.header-wrapper {
-		padding: 20px;
+		padding: 20px 65px;
 	}
 	.header-wrapper h1 {
 		font-size: 72px;
@@ -98,6 +132,9 @@ body {
 	}
 }
 @media screen and (min-width: 740px) {
+	.header-wrapper {
+		margin: 0 auto;
+	}
 	.header-wrapper h1 {
 		font-size: 100px;
 	}
