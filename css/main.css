@@ -115,7 +115,24 @@ body {
 
 	margin-top: 0;
 }
+.toolbox .module-body {
+	max-width: 960px;
+}
+.toolbox:before,
+.toolbox:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
 
+.toolbox:after {
+    clear: both;
+}
+
+.tools {
+	float: left;
+	width: 33.33%;
+	display: inline-block;
+}
 
 @media screen and (min-width: 550px) {
 	.header-wrapper {
