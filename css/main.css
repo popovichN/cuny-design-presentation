@@ -139,6 +139,9 @@ body {
 	width: 33.33%;
 	display: inline-block;
 }
+/*.indent {
+	margin-left: 20px;
+}*/
 
 @media screen and (min-width: 550px) {
 	.header-wrapper {
