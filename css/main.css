@@ -115,7 +115,7 @@ body {
 	font-weight: 300;
 	background-color: #333;
 	color: white;
-	max-width: 155px;
+	max-width: 180px;
 	padding: 10px 0;
 	padding-left: 65px;
 
@@ -154,7 +154,7 @@ body {
 		font-size: 32px;
 	}
 	.modules h4 {
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 @media screen and (min-width: 740px) {
