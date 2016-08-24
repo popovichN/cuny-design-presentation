@@ -7,7 +7,13 @@ body {
 	/*-webkit-animation: mygradient 15s ease infinite;
 	-moz-animation: mygradient 15s ease infinite;
 	animation: mygradient 15s ease infinite;*/
-}/*
+
+	margin: 0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+/*
 @-webkit-keyframes mygradient {
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
