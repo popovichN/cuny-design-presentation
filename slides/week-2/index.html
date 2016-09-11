@@ -6,7 +6,7 @@
 
 		<title>reveal.js - The HTML Presentation Framework</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,800" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,800, 800i" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 
@@ -114,37 +114,14 @@
 					<img width="80%" height="auto" data-src="img/Thinking_with_Type_Letter_14_families.gif" alt="type families">
 					<small style='right: 100px; bottom: 0px;'>Via Thinking With Type</small>
 				</section>
-				<!-- 
-				<section class='left' id='italics'>
-					<h3 style='margin-bottom: 50px;'>Remember:</h3>
-					<img width="100%" height="auto" data-src="img/italics.png" alt="italics">
-					<small style='right: 50px; bottom: 0px;'>Via Thinking With Type</small>
-				</section>
-				 -->
-				<!-- <section id='typeface-or-font'>
-					<h3>Typeface v. Font</h3>
-				</section>
 
-				<section id='typeface-1'>
-					<h3 style='margin-bottom:50px;'>Typeface</h3>
-					<p>A family of fonts</p>
-				</section> 
-
-				<section id='typeface-2'>
-					<img width="80%" height="auto" data-src="img/Thinking_with_Type_Letter_14_families.gif" alt="serifs">
-					<small style='right: 100px;'>Via Thinking With Type</small>
+				<section class='left' id='emphasis-tip'>
+					<h3>So you want to emphasize?</h3>					
+					<p class='fragment'>Use <em>italics</em> to differentiate </p>
+					<p class='fragment'>Or weighting to make it <span style='font-weight: 700;'>bold</span></p>
+					<p class='fragment'>Maybe even <span style='text-decoration: underline;'>underline</span>
+					<h4 class='fragment' style='margin:50px 0;'><span style='font-weight: 800; font-style:italic; text-decoration: underline;'>But pick one! Avoid sending mixed signals!!</span></h4>
 				</section>
-				
-				<section id='font-1'>
-					<h3>Font</h3>
-					<p>One weight or style <br/>within a typeface family</p>
-				</section>
-
-				<section id='font-2'>
-					<p style='font-size: 48px; font-weight: 400;'><em/>This font is Open Sans Regular Italic</em></p>
-					<p style='font-size: 48px; font-weight: 800'>This font is Open Sans Extra-Bold</p>
-				</section> -->
-
 
 				<section class='left' id='heads-bodies'>
 					<h2>Heads & bodies</h2>
@@ -270,19 +247,33 @@
 				</section>
 
 
+				<section class='left' id='line-length'>
+					<p style='color: #e8a6eb;'>Layout tip:</p>
+					<h3>Don't let your text run too wide – or too narrow</h3>
+					<h4 class='fragment'>(A.K.A. The Goldilocks principle of line-length)</h3>
+				</section>
 
+				<section class='left' id='line-length-narrow'>
 
+					<h3>Too narrow</h3>
 
+					<p style='max-width: 150px;'>A sentence that is in a column that's too narrow becomes hard to read, don't you think?</p>
+					
+			
+				</section>
+				<section class='left' id='line-length-wide' style='margin-left: -200px;'>
+					<h3>Too wide</h3>					
+					<p style='width: 185%;'>A sentence that's in a column that's too wide just keeps going and going and loses readers' attention. (It's hard work to read this!)</p>
+					
+				</section>
 
+				<section class='left' id='line-length-just-right'>
+					<h3>Just right</h3>	
 
-
-
-
-
-
-
-
-
+					<p style='max-width: 780px;'>A line should hold 45-75 characters  (counting both letters and spaces). 66 characters is ideal!</p>
+					
+					<p style='max-width: 780px;'>Online, optimal width varies by font-size.</p>
+				</section>
 
 				<section class='left' id='color'>
 					<h2 style='font-size: 3.75em;'>Color</h2>
@@ -305,18 +296,11 @@
 					<h2>Color <br/>relationships</h3>
 				</section>
 
-			<!-- 	<section> -->
-					<section id='complementary'>
-						<h3 style='margin-bottom: 50px;'>1. Complementary</h3>
-						<img width="100%" height="auto" data-src="img/color-relationships.png" alt="color wheels">
-						<small style='right:125px; bottom: 50px;'>Via The Non-Designer's Design Book</small>
-					</section>
-					<!-- <section id='complementary-2'>
-						<h3 style='margin-bottom: 50px;'></h3>
-						<img width="100%" height="auto" data-src="img/color-relationships-2.png" alt="color wheels">
-						<small style='right:75px; bottom: 50px;'>Via The Non-Designer's Design Book</small>
-					</section>
-				</section> -->
+				<section id='complementary'>
+					<h3 style='margin-bottom: 50px;'>1. Complementary</h3>
+					<img width="100%" height="auto" data-src="img/color-relationships.png" alt="color wheels">
+					<small style='right:125px; bottom: 50px;'>Via The Non-Designer's Design Book</small>
+				</section>
 
 				<section id='analogous'>
 					<h3 style='margin-bottom: 50px;'>2. Analogous</h3>
@@ -343,16 +327,44 @@
 					<h2 style='color: #e8a6eb; font-weight: 400;'>Add white</h2>
 				</section>
 
-
-
-
-
-				<section id='break-1'>
-					<h3>BREAK </h3>
+				<section class='left' id='cmyk-v-rgb' style='  max-width: 100%;'>
+					<h2>CMYK v. RGB</h2>
+					<div class='color cmyk' style='display: block; height: 150px; margin-top: 50px;'>
+						<img style='float: left; margin-right: 25px;' data-src='img/cmyk.png'' width='150' height='auto'>
+						<h4>CMYK =  Cyan, Magenta, Yellow, Key (black)</h4>
+						<p>&bull; Works like paint (additive)</p>
+						<p>&bull; Used for print</p>
+					</div>
+					<div class='color rgb' style='display: block; height: 150px; margin-top: 50px;'>
+						<img style='float: left; margin-right: 25px;' data-src='img/rgb.png' width='150' height='auto'>
+						<h4>RGB =  Red, Green, Blue</h4>
+						<p>&bull; Works like light (subtractive)</p>
+						<p>&bull; Used for the web</p>
+					</div>
 				</section>
 
+				<section id='palettes'>
+					<h2>Choosing colors</h2>
+					<img width="700" height="auto" data-src="img/wes-anderson-palettes-1.png" alt="anderson palette">
+					<small style='right:-150px; bottom: 20px;'>Via wesandersonpalettes.tumblr.com</small>
+				</section>
 
-				
+				<section id='palette-tools' style='width: 120%; margin-left: -100px;'>
+					<h3 style='text-align: left;'>Tools</h3>
+					<div class='color cmyk' style='display: block; width: calc(50% - 10px); float: left; margin-right: 20px;'>
+						<p style='text-align: left;'> <a href='https://color.adobe.com/explore/most-popular/?time=all' target='_blank'>Adobe Color CC</a></p>
+						<img style='max-width: 100%;' width="100%" height="auto" data-src="img/adobe-color.png" alt="adobe palettes">
+					</div>
+					<div class='color cmyk' style='display: block; width: calc(50% - 10px); float: left; '>
+						<p style='text-align: left;'><a href='http://colorbrewer2.org/' target='_blank'>Color Brewer</a></p>
+						<img style='max-width: 100%;' width="100%" height="auto" data-src="img/color-brewer.png" alt="adobe palettes">
+					</div>
+				</section>
+			
+			
+
+
+
 
 			</div>
 
