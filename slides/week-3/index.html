@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,800, 800i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class='slides'>
+				<section class='left' id='welcome' style='margin-left:-100px; max-width: 100%;'>
+					<h4 style='color:#e8a6eb; '>Design & Presentation</h4>
+					<h2 style='font-size: 3.75em;'>Designing <br/>for the web</h2>
+
+				</section>
+
+
+		<!-- html/css -->
+				<section  class='left' id='html-css-review'>
+					<h4>Review</h4>
+					<h2>HTML/CSS</h2>
+				</section>
+
+				<section class='left' id='html-set-up-1'>
+					<img width="100%" style='margin-top:50px; margin-left: -50px;' height="auto" data-src="img/document-setup.png" alt='HTML set-up'/>
+				</section>
+
+				<section class='left' id='head-v-body'>
+					<p>The <b>head</b> is where you put information about your HTML file, like its title. (Stuff that won't appear on the page.)</p>
+					<p>The <b>body</b> is where you put your content, such as text, images, and links. (For human eyes!) </p>
+				</section>
+
+
+			<!-- <section class='left' id='html-setup'>
+					<p>Text enclosed by carrot brackets <span style='color: #e8a6eb;'><code><></code></span> is called a <span style='font-weight: 800;'>tag</span> </p>
+					<p>Tags almost always come in pairs: an opening and a closing tag</p>
+					<ul>
+						<li style=' margin-left: 50px; margin-bottom: 25px;'>Example opening tag: <span style='color: #e8a6eb;'>&lt;html&gt;</span></li>
+						<li style=' margin-left: 50px; margin-bottom: 25px;'>Example closing tag: <span style='color: #e8a6eb;'>&lt;/html&gt;</span></li>
+					</ul>
+				</section> -->
+					
+				<section class='left' id='tags-etc'>
+					<h3 style='margin-bottom: 50px;'>HTML: <br/>
+					Basic structure</h3>
+
+					<div>&bull; Elements</div>
+					<div>&bull; Tags</div>
+					<div>&bull; Attributes</div>
+				</section>
+			
+				<section class='left' id='element'>
+					<h3>Element</h3>
+					<img width="100%" style=' margin-left: -10px; margin-top: 50px' height="auto" data-src="img/element_1.png" alt='HTML element'/>
+				</section>
+				<section class='left' id='tag'>
+					<h3>Tag</h3>
+					<img width="100%" style=' margin-left: -10px; margin-top: 50px' height="auto" data-src="img/tag_1.png" alt='HTML tag'/>
+				</section>
+				<section class='left' id='attribute'>
+					<h3>Attribute</h3>
+					<img width="100%" style=' margin-left: -10px; margin-top: 50px' height="auto" data-src="img/attribute_1.png" alt='HTML attribute'/>
+				</section>
+
+				<section class='left' id='header-tags-1'>
+					<h3>Header tags</h3>
+					<img width="100%" height="auto" data-src="img/h-tags.png" alt='h-tags'/>
+				</section>
+
+				<section id='header-tags-2'>
+					<h1 style='font-size: 3.25em;'>This is heading 1</h1>
+					<h2>This is heading 2</h2>
+					<h3>This is heading 3</h3>
+					<h4 style='color: #333;'>This is heading 4</h4>
+					<h5 style='font-size:18px;'>This is heading 5</h5>
+					<h6 style='font-size:14px;'>This is heading 6</h6>
+				</section>
+
+				<section id='add-images'>
+					<h3>Adding images</h3>
+					<img width="100%" style='margin-left:300px' height="auto" data-src="img/image.png" alt='Cute kitten!'/>
+				</section>
+				<section id='show-images'>
+					<img width="100%" height="auto" data-src="img/kitten.jpeg" alt='A very cute kitten!'/>
+				</section>
+				<section class='left' id='image-attributes-1'>
+					<h3>Image attributes</h3>
+						<p class='fragment'>&bull; src</p>
+						<p class='fragment'>&bull; alt </p>
+						<p class='fragment'>&bull; width</p>
+						<p class='fragment'>&bull; height</p>
+				</section>
+				<section id='image-attributes-2'>
+					<img width="100%" height="auto" data-src="img/img2.png" alt='Cute kitten attributes'/>
+				</section>
+
+				<section>
+					ADD: How to make images float / also pull quotes
+
+				</section>
+
+				<!-- <section>
+					<section id='lists'>
+						<h3>Lists</h3>
+					</section>
+					<section id='list-example-1'>
+						<h3>Ordered lists</h3>
+						<img width="100%" style='margin-left:300px' height="auto" data-src="img/list2.png" alt='List example'/>
+					</section>
+					<section id='list-example-2'>
+						<ol>
+						   <li>Thing to remember</li>
+						   <li>Another thing to remember</li>
+						   <li>One more thing to remember</li>
+						</ol>
+					</section>
+					<section id='list-example-3'>
+						<h3>Unordered lists</h3>
+						<img width="100%" style='margin-left:300px' height="auto" data-src="img/list1.png" alt='List example'/>
+					</section>
+					<section id='list-example-4'>
+						<ul>
+						   <li>Thing to remember</li>
+						   <li>Another thing to remember</li>
+						   <li>One more thing to remember</li>
+						</ul>
+					</section>
+				</section>
+				<section id='break-1'>
+					<h3>BREAK!</h3>
+				</section>
+				<section id='css'>
+					<h3>CSS</h3>
+					<p>Let's get styling</p>
+				</section> -->
+				<section id='css-intro'>
+					<h3><b>C</b>ascading  <b>S</b>tyle  <b>S</b>heets</h3>
+				</section>
+				<!-- <section id='parent-child'>
+					<img width="100%" style='margin-left:300px' height="auto" data-src="img/parent-child.png" alt='Parent-child relationship'/>
+				</section> -->
+				<section class='left' id='inline-styles'>
+					<h3>Styles can be <span style='text-decoration: underline'>inline</span></h3>
+				</section>
+				<section id='inline-ex'>
+					<img width="100%" height="auto" data-src="img/inline_styles.png" alt='Pink text example'/>
+				</section>
+				<section id='inline-ex'>
+					<div class="myDiv" style="color: #e8a6eb;">This text is pink.</div>
+				</section>
+
+				<section class='left' id='header-styles'>
+					<h3>Styles can be written in the <span style='text-decoration: underline'>HTML header</span></h3>
+				</section>
+
+				<section id='internal-ex'>
+					<img width="45%" height="auto" data-src="img/header_styles.png" alt='Header CSS'/>
+				</section>
+
+				<section id='internal-ex-pink'>
+					<div class="myDiv" style="color: #e8a6eb;">This text is pink.</div>
+				</section>
+
+				<section class='left' id='external-styles'>
+					<h3>Or in an <span style='text-decoration: underline'>external stylesheet</span></h3>
+				</section>
+
+				<section id='external-ex'>
+					<img width="100%" height="auto" data-src="img/external_styles.png" alt='Header CSS'/>
+				</section>
+
+				<section id='external-ex-pink'>
+					<div class="myDiv" style="color: #e8a6eb;">This text is pink.</div>
+				</section>
+			
+				<section class='left' id='selectors-intro'>
+					<h3>Selectors:</h3>
+					<p class='fragment'>&bull; id</p>
+					<p class='fragment'>&bull; class</p>
+					<p class='fragment'>&bull; element: div, a, span</p>
+					<p class='fragment'>&bull; element state: a:active, a:hover, a:visited</p>
+				</section>
+				<section id='selectors-1'>
+					<img width="50%" height="auto" data-src="img/id-class.png" alt='id and class selectors'/>
+				</section>
+				<section id='selectors-2'>
+					<img width="50%" height="auto" data-src="img/a-hover.png" alt='a and a:hover selectors'/>
+				</section>
+				<section class='left' id='css-control'>
+					<h4>The basics:</h4> <h3>What you can control though CSS</h3>
+				</section>
+				<section class='left' id='text-styles'>
+					<h3>Text styles</h3>
+					<p>&bull; color</p>
+					<p>&bull; font-family</p>
+					<p>&bull; font-size</p>
+					<p>&bull; font-weight</p>
+					<p>&bull; text-align</p>
+					<p>&bull; text-decoration</p>
+				</section>
+				<section class='left' id='box-model'>
+					<h3>"The box model"</h3>
+					<p>&bull; width</p>
+					<p>&bull; height</p>
+					<p>&bull; border</p>
+					<p>&bull; margin</p>
+					<p>&bull; padding</p>
+				</section>
+				<section class='left' id='positioning-display'>
+					<h3>Positioning and display</h3>
+					<p>&bull; position</p>
+					<p>&bull; display</p>
+					<p>&bull; float</p>
+				</section>
+				<section class='left' id='other-css'>
+					<h3>Other</h3>
+					<p><a href='http://www.w3schools.com/cssref/tryit.asp?filename=trycss_list-style-type_ex' target='_blank'>&bull; list-style-type</a></p>
+				</section>
+				<section class='left' id='span-ex'>
+					<h3>Span tags</h3>
+					<img width="100%"  height="auto" data-src="img/span.png" alt='Span tag example'/>
+				</section>
+				<section id='span-show'>
+					<p style="color:blue;">The sky is <span style="color:red;">blue</span></p>
+				</section>
+				<section id='break-2'>
+					<h3>BREAK!</h3>
+				</section>
+				<section>
+					DESIGNING FOR MOBILE!
+					MEDIA QUERIES
+				</section>
+			
+			
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
