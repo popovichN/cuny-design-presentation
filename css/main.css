@@ -42,7 +42,7 @@ body {
 	margin:0 auto;
 }
 .module-body {
-	margin-left: 65px;
+	margin-left: 0px;
 	height: auto;
 }
 .page-wrapper p,
@@ -53,10 +53,18 @@ body {
 	font-weight: 200;
 	color: #333;
 }
+.page-wrapper li {
+	max-width: calc(620px - 40px);
+}
 .page-wrapper p.large {
 	font-weight: 800;
 	font-size: 18px;
 	margin-bottom: 0;
+	border-top: 2px dotted #000;
+    padding-top: 10px;
+}
+.page-wrapper .toolbox p.large {
+	border-top: none;
 }
 .page-wrapper p.next {
 	margin-top: 0;
@@ -92,7 +100,7 @@ body {
 	-moz-box-sizing: border-box;
 }
 .modules {
-	padding: 20px 0;
+	padding: 2px 0 25px;
 
 }
 .module {
@@ -143,11 +151,15 @@ body {
 	width: 33.33%;
 	display: inline-block;
 }
+
 /*.indent {
 	margin-left: 20px;
 }*/
 
 @media screen and (min-width: 550px) {
+	.module-body {
+		margin-left: 65px;
+	}
 	.header-wrapper {
 		padding: 20px 65px;
 	}
