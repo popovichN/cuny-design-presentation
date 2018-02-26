@@ -52,7 +52,7 @@ body {
 	max-width: 620px;
 	font-weight: 200;
 	color: #333;
-	line-height: 1.2;
+	line-height: 1.4;
 }
 .page-wrapper li {
 	max-width: calc(620px - 40px);
